@@ -1,0 +1,159 @@
+@import url("https://font.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: url(img/galaxy.jpg);
+  background-position-x: center;
+  background-size: cover;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active {
+  background: #fff;
+  color: #2b1055;
+}
+.First h1 {
+  position: absolute;
+  top: 7rem;
+  left: 15rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.First p {
+  position: absolute;
+  padding: 15px;
+  margin-right: 10em;
+  top: 9rem;
+  left: 25rem;
+  display: flex;
+  align-items: center;
+  background: rgba(29, 49, 63, 0.5);
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  box-shadow: 6px 6px 15px rgb(29, 49, 63);
+  font-size: 1rem;
+  color: #fff;
+}
+.Second h1 {
+  position: absolute;
+  top: 36rem;
+  left: 15rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.Second p {
+  position: absolute;
+  padding: 15px;
+  margin-right: 10em;
+  top: 38rem;
+  left: 25rem;
+  display: flex;
+  align-items: center;
+  background: rgba(29, 49, 63, 0.5);
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  box-shadow: 6px 6px 15px rgb(29, 49, 63);
+  font-size: 1rem;
+  color: #fff;
+}
+.Last h1 {
+  position: absolute;
+  top: 7rem;
+  left: 98rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.Last img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 9rem;
+  left: 108rem;
+  display: flex;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  box-shadow: 6px 6px 15px rgb(29, 49, 63);
+}
+button {
+  position: absolute;
+  padding: 25px;
+  top: 65rem;
+  left: 75rem;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 2rem;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  box-shadow: 6px 6px 15px rgb(69, 2, 192);
+  font-size: 1.5em;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+button:hover {
+  opacity: 0.9;
+  transform: translateY(0) scale(1.02);
+}
+button a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

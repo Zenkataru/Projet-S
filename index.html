@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anniversaire Vega</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" href="img/Vega.png" />
+  </head>
+  <body>
+    <header>
+      <a href="https://www.twitch.tv/vega_vt" class="logo">Vega</a>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="GraVty.html">GraVty</a></li>
+        <li><a href="Wives.html">Wives</a></li>
+        <li><a href="Amis.html">Amis</a></li>
+        <li><a href="Modo.html">Modo</a></li>
+      </ul>
+    </header>
+    <section>
+      <img src="img/stars.png" id="stars" />
+      <img src="img/moon.png" id="moon" />
+      <img src="img/mountains_behind.png" id="mountains_behind" />
+      <a href="#sec" id="btn">Explore</a>
+      <img src="img/mountains_front.png" id="mountains_front" />
+    </section>
+    <div class="sec" id="sec">
+      <h2>Petit moment blabla pour t'expliquer pourquoi ce site :</h2>
+      <div id="sec2">
+        <p>
+          Tout d'abord je te souhaite un bon anniversaire, non seulement pour
+          tes 23 ans mais également pour les 2 ans de ta chaine.
+        </p>
+        <p>
+          Ensuite pour t'expliquer pourquoi j'ai décidé de te faire ce site,
+          c'est essentiellement pour marquer le coup en changeant de ce que l'on
+          avait pu t'offrir en cadeau l'an dernier et y mettre un peu plus de
+          forme pour les gens qui font parti de ton entourage.
+        </p>
+        <p>
+          Comme tu auras donc pu t'en douter avec ma précédente phrase ainsi que
+          via l'en-tête du site (header pour les intimes) dans ce site tu
+          trouveras des messages de tes amis ou du moins ceux dont nous sommes
+          au courant via discord ainsi que nous tes modos, tes femmes et toutes
+          tes partenaires de GraVty
+        </p>
+        <p>
+          En soit ce petit moment blabla est également mon message à ton égard,
+          je me suis permis de me placer uniquement en page d'accueil afin de
+          t'acceuillir comme il se doit sur le site que je t'aurais préparé.
+          Bien sûr je ne suis pas le seul à avoir tout fait comme tu pourras
+          t'en douter car même si la mise en forme sera faites par mes soins le
+          contenu lui sera différent grâce à la bienveillance de toutes les
+          personnes ayant contribué en t'envoyant des messages et pour quelques
+          uns des fan art également.
+        </p>
+        <p>
+          Je tenais donc à te dire que c'est un véritable plaisir d'être ton
+          modo, je n'aurai jamais assez de mots pour t'exprimer ma gratitude
+          pour ne serait ce que m'avoir considéré comme suffisament digne de
+          confiance pour m'occuper, accompagner de tout les autres de la
+          sécurité de tes streams ainsi que de ton discord. Le fait que tu m'ais
+          considéré également comme un ami est pour moi un grand honneur car me
+          dire que tu fais parti de mes amis est un véritable plaisir, nous en
+          avions déjà parlé en privé donc je n'élaborerai pas d'avantage mais
+          sache que je t'en suis très reconnaissant.
+        </p>
+        <p>
+          Je pourrai te retenir ici pendant un moment en te listant toutes les
+          choses sur lesquelles je trouve que tu es une personne magnifique et
+          de pourquoi tu mériterais tout l'amour du monde mais je garderai tout
+          ça en mp après ton stream cependant je ne voudrai pas impacter sur le
+          temps de toutes les magnifiques personnes t'ayant écrites sur ce site
+          alors je te souhaite une bonne navigation et encore une fois....<br />
+        </p>
+      </div>
+      <h2>Joyeux Anniversaire Vega !!!</h2>
+    </div>
+
+    <script>
+      let stars = document.getElementById("stars");
+      let moon = document.getElementById("moon");
+      let mountains_behind = document.getElementById("mountains_behind");
+      let btn = document.getElementById("btn");
+      let mountains_front = document.getElementById("mountains_front");
+      let header = document.querySelector("header");
+
+      window.addEventListener("scroll", function () {
+        let value = window.scrollY;
+        stars.style.left = value * 0.25 + "px";
+        moon.style.top = value * 1.05 + "px";
+        mountains_behind.style.top = value * 0.5 + "px";
+        mountains_front.style.top = value * 0 + "px";
+        btn.style.marginTop = value * 1.5 + "px";
+        header.style.top = value * 0.5 + "px";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+@import url("https://font.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: url(img/GraVty_Official_Illustration_-_Dark_Version.png);
+  background-position-x: center;
+  background-size: cover;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active {
+  background: #fff;
+  color: #2b1055;
+}
+.First h1 {
+  position: absolute;
+  top: 6rem;
+  left: 15rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.First p {
+  position: absolute;
+  padding: 15px;
+  margin-right: 10em;
+  top: 8rem;
+  left: 25rem;
+  display: flex;
+  align-items: center;
+  background: rgba(29, 49, 63, 0.5);
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  box-shadow: 6px 6px 15px rgb(29, 49, 63);
+  font-size: 1rem;
+  color: #fff;
+}
+.First img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 7rem;
+  left: 78rem;
+  display: flex;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  box-shadow: 6px 6px 15px rgb(29, 49, 63);
+}
+.Second h1 {
+  position: absolute;
+  top: 31rem;
+  left: 15rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.Second p {
+  position: absolute;
+  padding: 15px;
+  margin-right: 10em;
+  top: 33rem;
+  left: 25rem;
+  display: flex;
+  align-items: center;
+  background: rgba(29, 49, 63, 0.5);
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  box-shadow: 6px 6px 15px rgb(29, 49, 63);
+  font-size: 1rem;
+  color: #fff;
+}
+.Last h1 {
+  position: absolute;
+  top: 53rem;
+  left: 15rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.Last p {
+  position: absolute;
+  padding: 15px;
+  margin-right: 10em;
+  top: 55rem;
+  left: 25rem;
+  display: flex;
+  align-items: center;
+  background: rgba(29, 49, 63, 0.5);
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  box-shadow: 6px 6px 15px rgb(29, 49, 63);
+  font-size: 1rem;
+  color: #fff;
+}
